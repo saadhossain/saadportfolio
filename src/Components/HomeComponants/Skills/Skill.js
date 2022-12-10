@@ -30,13 +30,13 @@ const Skill = () => {
             </div>
             <div className=' flex flex-col gap-6'>
                 <div className='flex gap-5'>
-                    <img src={html} alt='' className='w-20 duration-500 animate-pulse'/>
-                    <img src={css} alt='' className='w-20 duration-500 animate-pulse'/>
+                    <img src={html} alt='' className='w-20 duration-500 animate-pulse hover:animate-spin'/>
+                    <img src={css} alt='' className='w-20 duration-500 animate-pulse hover:animate-spin'/>
                     <img src={tailwind} alt='' className='w-20 duration-500 animate-pulse'/>
                     <img src={js} alt='' className='w-20 rounded-full duration-500 animate-pulse'/>
                 </div>
                 <div className='flex gap-5'>
-                    <img src={react} alt='' className='w-20 duration-500 animate-pulse'/>
+                    <img src={react} alt='' className='w-20 duration-500 animate-pulse hover:animate-spin'/>
                     <img src={mongodb} alt='' className='w-20 duration-500 animate-pulse'/>
                     <img src={node} alt='' className='w-20 duration-500 animate-pulse'/>
                     <img src={firebase} alt='' className='w-20 duration-500 animate-pulse'/>

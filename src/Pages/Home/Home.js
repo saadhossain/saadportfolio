@@ -6,11 +6,13 @@ import Skill from '../../Components/HomeComponants/Skills/Skill';
 
 const Home = () => {
     return (
-        <div className='w-10/12 lg:w-lg mx-auto'>
+        <div>
             <HeroSection></HeroSection>
-            <Skill></Skill>
-            <Aboutme></Aboutme>
-            <Projects></Projects>
+            <div className='w-10/12 lg:w-lg mx-auto'>
+                <Skill></Skill>
+                <Aboutme></Aboutme>
+                <Projects></Projects>
+            </div>
         </div>
     );
 };

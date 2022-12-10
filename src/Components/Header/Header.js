@@ -3,7 +3,7 @@ import logo from '../../assests/Saad-Hossain.png';
 
 const Header = () => {
     return (
-        <div className='w-11/12 lg:w-xl py-2 mx-auto flex justify-between items-center text-white'>
+        <div className='w-11/12 lg:w-10/12 py-2 mx-auto -mb-20 flex justify-between items-center text-white font-chivo'>
             <div>
                 <img src={logo} alt="Saad Hossain" className='w-10' />
             </div>

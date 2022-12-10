@@ -4,8 +4,8 @@ const Aboutme = () => {
     return (
         <div className='w-full lg:w-10/12 mx-auto lg:flex justify-between items-center gap-10 my-5 lg:my-20'>
             <div className='w-full lg:w-3/5'>
-                <h1 className='text-5xl text-accent mb-5'>About Me_</h1>
-                <p>
+                <h1 className='text-5xl font-semibold text-secondary mb-5 font-caveat'>About Me<span className='text-primary'>_</span></h1>
+                <p className='text-white font-chivo'>
                     Hello! My name is Saddam Hossain and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I was in My Diploma Program — then I started to explore web technologies such as HTML, CSS and Bootstrap!<br/><br/>
 
                     Fast-forward to today, I acquired skills in HTML5, CSS3, Bootstrap, Tailwind CSS, DaisyUI, MambaUI, Flowbite, JavaScript, ES6, React, React Router, React Query, AXIOS, Firebase Authentication, React Icons, and other related tools and packages.

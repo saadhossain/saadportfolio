@@ -10,18 +10,18 @@ import firebase from '../../../assests/logos/firebase.png'
 
 const Skill = () => {
     return (
-        <div className='lg:flex justify-between items-center mb-5' id="skills">
+        <div className='lg:flex justify-between items-center my-5 lg:my-20 text-white font-chivo' id="skills">
             <div className=''>
-                <h1 className='text-5xl text-accent'>Skills I Own_</h1>
+                <h1 className='text-5xl text-secondary font-bold font-caveat'>Skills I Own<span className='text-primary'>_</span></h1>
                 <div className='my-5'>
-                    <h3 className='text-primary text-3xl mb-5'>Experties_</h3>
+                    <h3 className='text-primary text-3xl mb-5 font-caveat'>Experties<span className='text-secondary'>_</span></h3>
                     <p>
                         HTML5 | CSS3 | JavaScript | BootStrap | TailwindCSS | React <br/>
                         React Router | React Query | Firebase | 
                     </p>
                 </div>
                 <div className='my-5'>
-                    <h3 className='text-primary text-3xl mb-5'>Comfortable_</h3>
+                    <h3 className='text-primary text-3xl mb-5 font-caveat'>Comfortable<span className='text-secondary'>_</span></h3>
                     <p>
                         NodeJs | Express | MongoDB | JWT | Styled Components | AXIOS <br/>
                         Stripe | Node Mailer | Vercel | GitHub | DevTool | Netlify | IMGBB

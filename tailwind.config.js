@@ -4,11 +4,14 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                "primary": "#3B6EA3",
-                "typo": "#71b7ff",
-                "secondary": "#0E1B33",
+                "primary": "#D5868A",
+                "secondary": "#6C84CA",
                 "accent": "#84827D"
-            }
+            },
+            fontFamily: {
+                caveat: ['Caveat Brush'],
+                chivo:['Chivo Mono']
+              }
         },
     },
     plugins: [require("daisyui")],

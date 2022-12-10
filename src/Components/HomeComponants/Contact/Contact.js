@@ -10,7 +10,7 @@ const Contact = () => {
                 </p>
             </div>
             <div className='w-full lg:w-2/4'>
-                <iframe src="https://www.cognitoforms.com/f/0XhFLchcDkO5LRzKrfQIzw/1" title='contact form' className='w-full h-[400px] rounded-lg'></iframe>
+                <iframe src="https://www.cognitoforms.com/f/0XhFLchcDkO5LRzKrfQIzw/1" title='contact form' className='w-full h-[620px] lg:h-[550px] rounded-lg'></iframe>
                 <script src="https://www.cognitoforms.com/f/iframe.js"></script>
             </div>
         </div>

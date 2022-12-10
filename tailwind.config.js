@@ -9,8 +9,8 @@ module.exports = {
                 "accent": "#84827D"
             },
             fontFamily: {
-                caveat: ['Caveat Brush'],
-                chivo:['Chivo Mono']
+                bigshoulder: ["'Big Shoulders Display', cursive"],
+                chivo:["'Chivo Mono', monospace"]
               }
         },
     },

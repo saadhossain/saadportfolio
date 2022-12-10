@@ -2,11 +2,11 @@ import React from 'react';
 import saad from '../../../assests/SaadHossain.jpg';
 const Aboutme = () => {
     return (
-        <div className='w-full lg:w-10/12 mx-auto lg:flex justify-between items-center gap-10 my-5 lg:my-20' id='about'>
+        <div className='w-full lg:w-11/12 mx-auto lg:flex justify-between items-center gap-10 my-5 lg:my-20' id='about'>
             <div className='w-full lg:w-3/5'>
                 <h1 className='text-5xl font-semibold text-secondary mb-5 font-bigshoulder'>About Me<span className='text-primary font-mono'>_</span></h1>
                 <p className='text-white font-chivo'>
-                    Hello! My name is Saddam Hossain and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I was in My Diploma Program — then I started to explore web technologies such as HTML, CSS and Bootstrap!<br/><br/>
+                    Hello! My name is Saddam Hossain and I enjoy creating things that live on the internet. First Time in 2018 during My Diploma Program, I realized that I feel energatic and happy while coading! I understood Web Development is my passion — then I started to explore web technologies such as HTML, CSS and Bootstrap!<br/><br/>
 
                     Fast-forward to today, I acquired skills in HTML5, CSS3, Bootstrap, Tailwind CSS, DaisyUI, MambaUI, Flowbite, JavaScript, ES6, React, React Router, React Query, AXIOS, Firebase Authentication, React Icons, and other related tools and packages.
                     For BackEnd, I Have Expertise in MongoDB, Nodejs, Express Js, and JWT for Authorization.

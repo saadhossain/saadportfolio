@@ -4,7 +4,7 @@ import {FaGithub, FaGlobe} from 'react-icons/fa'
 
 const Projects = () => {
     return (
-        <div className='w-11/12 mx-auto my-5 lg:my-20 text-white'>
+        <div className='w-11/12 mx-auto my-5 lg:my-20 text-white' id='projects'>
             <h1 className='text-5xl font-semibold text-secondary mb-8 font-bigshoulder'>Projects I have Build<span className='text-primary font-mono'>_</span></h1>
             {/* Project One - Dealogic*/}
             <div className='lg:flex items-center justify-center mb-20'>

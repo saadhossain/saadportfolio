@@ -2,7 +2,7 @@ import React from 'react';
 import saad from '../../../assests/SaadHossain.jpg';
 const Aboutme = () => {
     return (
-        <div className='w-full lg:w-10/12 mx-auto lg:flex justify-between items-center gap-10 my-5 lg:my-20'>
+        <div className='w-full lg:w-10/12 mx-auto lg:flex justify-between items-center gap-10 my-5 lg:my-20' id='about'>
             <div className='w-full lg:w-3/5'>
                 <h1 className='text-5xl font-semibold text-secondary mb-5 font-bigshoulder'>About Me<span className='text-primary font-mono'>_</span></h1>
                 <p className='text-white font-chivo'>

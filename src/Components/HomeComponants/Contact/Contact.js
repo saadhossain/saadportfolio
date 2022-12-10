@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='lg:flex justify-between my-20 gap-5'>
+        <div className='lg:flex justify-between my-20 gap-5' id='contact'>
             <div className='w-full lg:w-2/4 mb-5 lg:mb-0'>
                 <h1 className='text-5xl font-semibold text-secondary mb-5 font-bigshoulder'>Get In Touch<span className='text-primary font-mono'>_</span></h1>
                 <p className='text-white font-chivo'>

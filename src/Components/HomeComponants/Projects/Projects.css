@@ -6,16 +6,42 @@
     background-position: top;
     cursor: pointer;
 }
-
+/* Project Details Page */
+.project-detailed {
+    height: 350px;
+    background: #000;
+    transition: ease-in-out 2s;
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+}
+/* Dealogic */
 .dealogic {
     background-image: url('../../../assests/sites/dealogic.png');
 }
+.dealogic-products {
+    background-image: url('../../../assests/sites/dealogic-products.png');
+}
+.dealogic-blogs {
+    background-image: url('../../../assests/sites/dealogic-blogs.png');
+}
+/* Laura Jane */
 .laura{
     background-image: url('../../../assests/sites/laura-jane.png');
 }
 .career{
     background-image: url('../../../assests/sites/career-edu.png');
 }
+/* Hover Effects */
 .project:hover {
     background-position: bottom;
+}
+/* Hover Effects for images on project details page */
+.project-detailed:hover{
+    background-position: bottom;
+}
+.project-feature li::before{
+    content: url('../../../assests/check.svg');
+    margin-right: 6px;
+    margin-top: 5px;
 }

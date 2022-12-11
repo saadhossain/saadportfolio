@@ -29,8 +29,20 @@
 .laura{
     background-image: url('../../../assests/sites/laura-jane.png');
 }
+.laura-service-details{
+    background-image: url('../../../assests/sites/laura-service-details.png');
+}
+.laura-blogs{
+    background-image: url('../../../assests/sites/laura-blogs.png');
+}
 .career{
     background-image: url('../../../assests/sites/career-edu.png');
+}
+.career-courses{
+    background-image: url('../../../assests/sites/career-courses.png');
+}
+.career-blogs{
+    background-image: url('../../../assests/sites/career-blogs.png');
 }
 /* Hover Effects */
 .project:hover {

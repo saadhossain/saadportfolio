@@ -71,8 +71,8 @@ const Dealogic = () => {
                         TAILWIND CSS | REACT | Firebase | Stripe <br /> MongoDB | Node.js | Express.js | JWT
                     </p>
                     <div className='flex gap-3'>
-                        <a href='https://github.com/saadhossain/dealogic'><FaGithub className='w-6 h-6'></FaGithub></a>
-                        <a href="https://dealogic-msh.web.app/"><FaGlobe className='w-6 h-6'></FaGlobe></a>
+                        <a href='https://github.com/saadhossain/dealogic'><FaGithub className='w-6 h-6 hover:text-primary'></FaGithub></a>
+                        <a href="https://dealogic-msh.web.app/"><FaGlobe className='w-6 h-6 hover:text-primary'></FaGlobe></a>
                     </div>
                 </div>
             </div>

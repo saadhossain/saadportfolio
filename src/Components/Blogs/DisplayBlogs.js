@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const DisplayBlogs = ({ blog }) => {
     const { _id, blogTitle, blogImage, description, authorImage, authorName, publishedOn } = blog;
     return (
-        <div className="text-white font-chivo">
+        <div className="text-white">
             <div className="card card-compact w-full bg-base-100 shadow-lg hover:shadow-2xl duration-500 cursor-pointer">
                 <figure><img src={blogImage} alt={blogTitle} className='w-full h-48 rounded-t' /></figure>
                 <div className="card-body font-semibold">
-                    <h2 className="text-lg font-semibold">{blogTitle}</h2>
+                    <h2 className="text-lg font-semibold font-chivo">{blogTitle}</h2>
                     <hr className="border-1 border-gray-400" />
                     <div
                         dangerouslySetInnerHTML={{ __html: description.slice(0, 150) }}

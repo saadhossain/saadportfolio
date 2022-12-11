@@ -13,10 +13,10 @@ const Header = () => {
             </div>
             <div className='flex items-center gap-2 z-50'>
                 <ul className={`lg:flex gap-3 items-center font-semibold bg-[#081A3B] lg:bg-transparent absolute lg:static duration-300 ease-in-out ${expand ? 'top-12 right-0': 'top-[-200px] right-0'} pr-5 pl-20 py-2 rounded`}>
-                    <HashLink to='#skills' smooth><li>Skills</li></HashLink>
-                    <HashLink to='#about' smooth><li>About</li></HashLink>
-                    <HashLink to='#projects' smooth><li>Projects</li></HashLink>
-                    <HashLink to="#contact" smooth>Contact</HashLink>
+                    <HashLink to='/#skills' smooth><li>Skills</li></HashLink>
+                    <HashLink to='/#about' smooth><li>About</li></HashLink>
+                    <HashLink to='/#projects' smooth><li>Projects</li></HashLink>
+                    <HashLink to="/#contact" smooth>Contact</HashLink>
                     <Link to='/blogs'><li>Blogs</li></Link>
                 </ul>
                 <a href="../../assests/resume/Saddam Hossain's Resume.pdf"

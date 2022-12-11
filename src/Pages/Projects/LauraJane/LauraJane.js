@@ -3,14 +3,14 @@ import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 const LauraJane = () => {
     return (
-        <div className='w-10/12 lg:w-lg mx-auto mt-32'>
+        <div className='w-11/12 lg:w-lg mx-auto mt-20 lg:mt-32'>
             {/* Name and Short Description */}
-            <h2 className='text-4xl text-secondary font-semibold font-bigshoulder hover:text-primary'>Laura Jane</h2>
-            <h4 className='my-5 text-lg font-chivo'>
+            <h2 className='text-3xl lg:text-4xl text-secondary font-semibold font-bigshoulder hover:text-primary'>Laura Jane</h2>
+            <h4 className='my-2 lg:my-5 text-lg font-chivo'>
                 Lawyer/Law Service Provider Website
             </h4>
             {/* Project Screenshots */}
-            <div className='flex gap-5'>
+            <div className='flex flex-col lg:flex-row gap-5'>
                 <div className='project-detailed laura w-full lg:w-2/4  rounded-lg'>
                 </div>
                 <div className='project-detailed laura-service-details w-full lg:w-2/4  rounded-lg'>
@@ -48,7 +48,7 @@ const LauraJane = () => {
                 </div>
                 {/* Technology Used */}
                 <h4 className='text-primary text-2xl font-bigshoulder mt-5'>Technology Used<span className='text-secondary font-mono'>_</span></h4>
-                <div className='flex gap-5 items-center mt-2 font-chivo'>
+                <div className='lg:flex gap-5 items-center mt-2 font-chivo'>
                     <p>
                         TAILWIND CSS | REACT | Firebase <br /> MongoDB | Node.js | Express.js | JWT
                     </p>

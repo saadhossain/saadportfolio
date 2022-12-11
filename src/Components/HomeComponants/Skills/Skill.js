@@ -12,7 +12,7 @@ const Skill = () => {
     return (
         <div className='lg:flex justify-between items-center my-5 lg:my-20 text-white font-chivo' id="skills">
             <div className=''>
-                <h1 className='text-5xl text-secondary font-bold font-bigshoulder'>Skills I Own<span className='text-primary font-mono'>_</span></h1>
+                <h1 className='text-3xl lg:text-5xl text-secondary font-bold font-bigshoulder'>Skills I Own<span className='text-primary font-mono'>_</span></h1>
                 <div className='my-5'>
                     <h3 className='text-primary text-3xl mb-5 font-bigshoulder'>Experties<span className='text-secondary font-mono'>_</span></h3>
                     <p>

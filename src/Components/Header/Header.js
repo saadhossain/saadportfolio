@@ -22,7 +22,7 @@ const Header = () => {
                     <HashLink to="/#contact" smooth>Contact</HashLink>
                     <Link to='/blogs'><li>Blogs</li></Link>
                     {
-                       !user && <Link to='/login'><li>Login</li></Link>
+                        !user && <Link to='/login'><li>Login</li></Link>
                     }
                 </ul>
                 <a href="../../assests/resume/Saddam Hossain's Resume.pdf"
@@ -31,9 +31,11 @@ const Header = () => {
                     <button className='py-1 px-5 rounded border-2 border-primary duration-500 ease-in-out hover:bg-primary'>Resume</button>
                 </a>
                 {/* //If User logged in show user profile Image */}
-                {
-                    user  && <img src={user?.photoURL} alt='' className='w-10' /> 
+                <Link to='/dashboard'>
+                    {
+                        user && <img src={user?.photoURL} alt='' className='w-10' />
                     }
+                </Link>
                 <div onClick={() => setExpand(!expand)} className='lg:hidden'>
                     {
                         expand ? <AiOutlineClose className='w-6 h-6'></AiOutlineClose> : <AiOutlineMenu className='w-6 h-6'></AiOutlineMenu>

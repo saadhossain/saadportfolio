@@ -24,28 +24,28 @@ const CareerEdu = () => {
                     <h4 className='text-primary text-2xl font-bigshoulder'>Features<span className='text-secondary font-chivo'>_</span></h4>
                     <ul className='font-chivo project-feature text-white flex flex-col gap-2'>
                         <li>
-                            Student Can View All The Courses and their featues.
+                            Student Can View All The Courses and their features.
                         </li>
                         <li>
-                            Student Can View All Courses From Course Menu and they can <span className='text-primary'>filter</span> courses according to their cooice.
+                            Student Can View All Courses From Course Menu and they can <span className='text-primary'>filter</span> courses according to their choice.
                         </li>
                         <li>
                             Student Can Purchase a Specific course by Clicking on the <span className='text-primary'>Enroll</span> button.
                         </li>
                         <li>
-                            Student Can Download a Course Preview as PDF by Clicking <span className='text-primary'>Download PDF</span> button.
+                            Student Can Download a Course Preview as a PDF by Clicking the <span className='text-primary'>Download PDF</span> button.
                         </li>
                         <li>
-                            Student Can Get Premium Access of the Course, for this They have to <span className='text-primary'>login/Register</span> to the site.
+                            Student Can Get Premium Access to the Course, for this They have to <span className='text-primary'>login/Register</span> to the site.
                         </li>
                         <li>
-                            Student Can Register to the Site using Email and Password, also they have option to login using <span className='text-primary'>Google</span> and <span className='text-primary'>GitHub</span>.
+                            Student Can Register to the Site using Email and Password, and also have the option to log in using <span className='text-primary'>Google</span> and <span className='text-primary'>GitHub</span>.
                         </li>
                         <li>
-                            Student Can Request for <span className='text-primary'>Password Reset</span>,if they Forgot the Password.
+                            Student Can Request <span className='text-primary'>Password Reset</span> if they Forgot the Password.
                         </li>
                         <li>
-                            Student can switch the site to <span className='text-primary'>Dark Mode</span> and Light Mode they Want...
+                            Students can switch the site to <span className='text-primary'>Dark Mode</span> and Light Mode if they Want...
                         </li>
                     </ul>
                 </div>

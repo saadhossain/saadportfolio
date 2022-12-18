@@ -1,12 +1,42 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import dealogic from '../../../assests/projects/dealogic-logo.png';
 
 const AllProjects = () => {
     return (
-        <div className='w-10/12 lg:w-lg mx-auto mt-20'>
-            <div className='text-white font-chivo'>
-                <h1 className='text-3xl lg:text-5xl font-semibold text-secondary mb-4 lg:mb-8 font-bigshoulder'>All Projects<span className='text-primary font-mono'>_</span></h1>
-                <h4>I have build almost 70+ Functional Website with HTML, CSS, React and WordPress.</h4>
-                <h4>Here are some of them</h4>
+        <div className='mt-5 grid grid-cols-3'>
+            {/* Project 1 */}
+            <div className='bg-[#0E1B33] p-5 rounded mr-5'>
+                <div className='flex items-center justify-between font-chivo text-white'>
+                    <img src={dealogic} alt='' />
+                    <Link to='/project'>
+                        <button className='py-1 px-5 rounded border-2 border-primary duration-500 ease-in-out hover:bg-primary'>Details</button>
+                    </Link>
+                </div>
+                <div className='project dealogic w-full rounded-lg h-48'>
+                </div>
+            </div>
+            {/* Project 2 */}
+            <div className='bg-[#0E1B33] p-5 rounded mx-2'>
+                <div className='flex items-center justify-between font-chivo text-white'>
+                    <img src={dealogic} alt='' />
+                    <Link to='/project'>
+                        <button className='py-1 px-5 rounded border-2 border-primary duration-500 ease-in-out hover:bg-primary'>Details</button>
+                    </Link>
+                </div>
+                <div className='project laura w-full rounded-lg h-48'>
+                </div>
+            </div>
+            {/* Project 3 */}
+            <div className='bg-[#0E1B33] p-5 rounded ml-5'>
+                <div className='flex items-center justify-between font-chivo text-white'>
+                    <img src={dealogic} alt='' />
+                    <Link to='/project'>
+                        <button className='py-1 px-5 rounded border-2 border-primary duration-500 ease-in-out hover:bg-primary'>Details</button>
+                    </Link>
+                </div>
+                <div className='project career w-full rounded-lg h-48'>
+                </div>
             </div>
         </div>
     );

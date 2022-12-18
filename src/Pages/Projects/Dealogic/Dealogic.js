@@ -24,31 +24,31 @@ const Dealogic = () => {
                     <h4 className='text-primary text-2xl font-bigshoulder'>Features<span className='text-secondary font-chivo'>_</span></h4>
                     <ul className='font-chivo project-feature text-white flex flex-col gap-2'>
                         <li>
-                        As a Registered Seller, he can post his product to the site for selling.
+                            As a Registered Seller, he can post his product to the site for selling.
                         </li>
                         <li>
-                        If a Seller wish to Promote his/her listed product to sell fast, he can advertise it by clicking the <span className='text-primary'>Promote</span> button from the Seller Dashboard.
+                            If a Seller wishes to Promote his/her listed product to sell fast, he can advertise it by clicking the <span className='text-primary'>Promote</span> button from the Seller Dashboard.
                         </li>
                         <li>
                             Seller Can Mark any Specific Product posted by him as <span className='text-primary'>Sold</span>.
                         </li>
                         <li>
-                            A Seller can <span className='text-primary'>delete</span> any of his/her added product from his dashboard, anytime, without admin permission.
+                            A Seller can <span className='text-primary'>delete</span> any of his/her added products from his dashboard, anytime, without admin permission.
                         </li>
                         <li>
-                        Buyer can View any Product he wants, for this he have to join our website using <span className='text-primary'>registration</span> form, existing user can view products by <span className='text-primary'>Login.</span>
+                            Buyer can view any Product he wants, for this he has to join our website using <span className='text-primary'>registration</span> form, existing users can view products by <span className='text-primary'>Login.</span>
                         </li>
                         <li>
-                            Buyer can <span className='text-primary'>Book</span> a Product he like to purchase, he just have to put his phone number and meeting location.
+                            Buyer can <span className='text-primary'>Book</span> a Product he likes to purchase, he just has to put his phone number and meeting location.
                         </li>
                         <li>
-                            Buyer Can Confirm a Booked product by making the payment, buyer have to click on the <span className='text-primary'>Payment</span> button beside the each product at buyer dashboard.
+                            Buyer Can Confirm a Booked product by making the payment, buyer has to click on the <span className='text-primary'>Payment</span> button beside each product on the buyer dashboard.
                         </li>
                         <li>
-                            From the Buyer Dashboard, if he changed decission he can <span className='text-primary'>cancel</span> any booking/order, before payment.
+                            From the Buyer Dashboard, if he changed his decision he can <span className='text-primary'>cancel</span> any booking/order, before payment.
                         </li>
                         <li>
-                        Website admin have all the privilege of the website
+                            Website admins have all the privileges of the website
                         </li>
                         <li>
                             Admin Can See all the Products added by sellers
@@ -60,7 +60,7 @@ const Dealogic = () => {
                             Admin himself can add any product for selling, admin also can post <span className='text-primary'>articles</span> from admin <span className='text-primary'>Dashboard</span>.
                         </li>
                         <li>
-                            Admin, Seller and Buyer Can See their activity related <span className='text-primary'>Statistics</span> on their Admin Dashboard.
+                            Admin, Seller, and Buyer Can See their activity-related <span className='text-primary'>Statistics</span> on their Admin Dashboard.
                         </li>
                     </ul>
                 </div>

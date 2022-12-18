@@ -24,16 +24,16 @@ const LauraJane = () => {
                     <h4 className='text-primary text-2xl font-bigshoulder'>Features<span className='text-secondary font-chivo'>_</span></h4>
                     <ul className='font-chivo project-feature text-white flex flex-col gap-2'>
                         <li>
-                            User Can view all Services providing by the lawyer and all Reviews related to a specific service.
+                            User Can view all Services provided by the lawyer and all Reviews related to a specific service.
                         </li>
                         <li>
-                            Customer Can leave <span className='text-primary'>feedback</span> on a service he purchased, for this he have to <span className='text-primary'>login/register</span> to the site.
+                            Customer Can leave <span className='text-primary'>feedback</span> on a service they purchased, for this they have to <span className='text-primary'>login/register</span> to the site.
                         </li>
                         <li>
                             Customer Can See his all Feedback posted by him, on his Dashboard.
                         </li>
                         <li>
-                            Customer Can <span className='text-primary'>Delete</span> any Review/Feedback and If he want he can <span className='text-primary'>Edit/Modify</span> any Review from his dashboard.
+                            Customer Can <span className='text-primary'>Delete</span> any Review/Feedback and If he wants he can <span className='text-primary'>Edit/Modify</span> any Review from his dashboard.
                         </li>
                         <li>
                             Admin Can Add More Services from his Dashboard

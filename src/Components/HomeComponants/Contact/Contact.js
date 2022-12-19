@@ -1,20 +1,18 @@
 import emailjs from '@emailjs/browser';
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
-    //Set Message
-    const [message, setMessage] = useState('')
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_abilm3s', 'template_1213t9q', form.current, '6Vzcu4yZvYep-DEvg')
             .then((result) => {
-                setMessage('Thank your for Your Message, we will contact you Soon...')
                 e.target.reset()
+                toast.success('Thank your for Your Message, we will contact you Soon...')
             }, (error) => {
-                console.log(error.text);
-                setMessage(error)
+                toast.error(error.text)
             });
     };
 
@@ -40,17 +38,16 @@ const Contact = () => {
                         <div className="space-y-1 text-sm">
                             <label for="message" className="block">Leave Your Message</label>
                             <textarea
-                            name="message"
-                            id="message"
-                            cols="6"
-                            placeholder="Whats on Your Mind?"
-                            className='w-full px-4 py-3 rounded-md border border-white bg-transparent'
+                                name="message"
+                                id="message"
+                                cols="6"
+                                placeholder="Whats on Your Mind?"
+                                className='w-full px-4 py-3 rounded-md border border-white bg-transparent'
                             ></textarea>
                         </div>
                         <button
-                        className="block w-full p-3 text-center rounded text-white bg-primary border border-primary hover:bg-[#c77276] duration-500 font-semibold"
+                            className="block w-full p-3 text-center rounded text-white bg-primary border border-primary hover:bg-[#c77276] duration-500 font-semibold"
                         >Submit Message</button>
-                        <p className='text-green-500'>{message}</p>
                     </form>
                 </div>
             </div>
